@@ -34,6 +34,7 @@ int _tmain(int argc, TCHAR* argv[], TCHAR* envp[])
 		CString strHello;
 		strHello.LoadString(IDS_HELLO);
 		cout << (LPCTSTR)strHello << endl;
+		cout << "Add all files to Git Repository!" << endl;
 	}
 
 	return nRetCode;
